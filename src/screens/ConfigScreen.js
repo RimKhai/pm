@@ -1,7 +1,9 @@
+import ConfigForm from "../widgets/ConfigForm";
+
 const ConfigScreen = () => {
     return (
         <>
-            <h1>config</h1>
+            <ConfigForm />
         </>
     )
 }

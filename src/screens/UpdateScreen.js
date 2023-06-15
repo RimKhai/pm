@@ -1,7 +1,9 @@
+import PackageUpdater from "../widgets/PackageUpdater";
+
 const UpdateScreen = () => {
     return (
         <>
-            <h1>update</h1>
+            <PackageUpdater />
         </>
     )
 }

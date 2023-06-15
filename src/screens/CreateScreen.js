@@ -1,7 +1,9 @@
+import PackageCreater from "../widgets/PackageCreater";
+
 const CreateScreen = () => {
     return (
         <>
-            <h1>create</h1>
+            <PackageCreater />
         </>
     )
 }
